@@ -1,0 +1,59 @@
+ul {
+  list-style-type: none;
+}
+
+.list {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid; */
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+ul > h2, h5 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.list > ul {
+  border: 1px solid;
+  width: 100%;
+}
+
+
+
+.point2,
+ .point3,
+ .point4,
+ .point5,
+ .point6,
+ .point7,
+ .point8,
+ .point9,
+ .point10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.point2 ul,
+ .point3 ul,
+ .point4 ul,
+ .point5 ul,
+ .point6 ul,
+ .point7 ul,
+ .point8 ul,
+ .point9 ul,
+ .point10 ul {
+  border: 1px solid;
+  width: 100%;
+}
+
+.point10 li {
+  padding: 1rem 0;
+  border-bottom: 1px solid;
+}
